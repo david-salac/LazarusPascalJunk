@@ -1,0 +1,9 @@
+set term png size 1960,1080
+
+set output 'z_4_-_16.png'
+p 'z_4_-_16.dat' u 1:2 w d
+set output '243z_5_-_7776.png'
+p '243z_5_-_7776.dat' u 1:2 w d
+set output '3z4_4z3_2z2_7z_1084.png'
+p '3z4_4z3_2z2_7z_1084.dat' u 1:2 w d
+quit

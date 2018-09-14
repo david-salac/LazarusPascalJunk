@@ -1,0 +1,8 @@
+set palette defined (0 'dark-blue',9 'dark-blue',75 'white',175 'gold',255 'brown',195 'black')
+set cbrange [0:255]
+
+set term png size 1960,1080
+set output 'Julia.png'
+unset key
+plot  'a.dat' u 1:2:3 palette z with dots
+set output
